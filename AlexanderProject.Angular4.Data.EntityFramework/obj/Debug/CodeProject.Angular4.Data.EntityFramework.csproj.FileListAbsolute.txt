@@ -1,0 +1,16 @@
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\CodeProject.Angular4.Data.EntityFramework.dll.config
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\CodeProject.Angular4.Data.EntityFramework.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\CodeProject.Angular4.Data.EntityFramework.pdb
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\CodeProject.Angular4.Business.Entities.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\CodeProject.Angular4.Interfaces.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\EntityFramework.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\System.Linq.Dynamic.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\CodeProject.Angular4.Business.Entities.pdb
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\CodeProject.Angular4.Interfaces.pdb
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\EntityFramework.xml
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\obj\Debug\CodeProject.Angular4.Data.EntityFramework.csprojResolveAssemblyReference.cache
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\obj\Debug\CodeProject.Angular4.Data.EntityFramework.csproj.CoreCompileInputs.cache
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\obj\Debug\CodeProject.Angular4.Data.EntityFramework.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Data.EntityFramework\obj\Debug\CodeProject.Angular4.Data.EntityFramework.pdb

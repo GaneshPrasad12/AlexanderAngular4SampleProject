@@ -1,0 +1,8 @@
+D:\Ganesh\Angular2Sample\AlexanderProject.Angular4.Portal\AlexanderProject.Angular4.Interfaces\bin\Debug\CodeProject.Angular4.Interfaces.dll
+D:\Ganesh\Angular2Sample\AlexanderProject.Angular4.Portal\AlexanderProject.Angular4.Interfaces\bin\Debug\CodeProject.Angular4.Interfaces.pdb
+D:\Ganesh\Angular2Sample\AlexanderProject.Angular4.Portal\AlexanderProject.Angular4.Interfaces\bin\Debug\AlexanderProject.Angular4.Business.Entities.dll
+D:\Ganesh\Angular2Sample\AlexanderProject.Angular4.Portal\AlexanderProject.Angular4.Interfaces\bin\Debug\AlexanderProject.Angular4.Business.Entities.pdb
+D:\Ganesh\Angular2Sample\AlexanderProject.Angular4.Portal\AlexanderProject.Angular4.Interfaces\obj\Debug\AlexanderProject.Angular4.Interfaces.csprojResolveAssemblyReference.cache
+D:\Ganesh\Angular2Sample\AlexanderProject.Angular4.Portal\AlexanderProject.Angular4.Interfaces\obj\Debug\AlexanderProject.Angular4.Interfaces.csproj.CoreCompileInputs.cache
+D:\Ganesh\Angular2Sample\AlexanderProject.Angular4.Portal\AlexanderProject.Angular4.Interfaces\obj\Debug\CodeProject.Angular4.Interfaces.dll
+D:\Ganesh\Angular2Sample\AlexanderProject.Angular4.Portal\AlexanderProject.Angular4.Interfaces\obj\Debug\CodeProject.Angular4.Interfaces.pdb

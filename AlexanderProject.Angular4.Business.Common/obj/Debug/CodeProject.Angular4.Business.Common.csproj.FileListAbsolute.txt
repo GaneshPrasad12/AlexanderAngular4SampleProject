@@ -1,0 +1,10 @@
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Business.Common\bin\Debug\CodeProject.Angular4.Business.Common.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Business.Common\bin\Debug\CodeProject.Angular4.Business.Common.pdb
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Business.Common\bin\Debug\CodeProject.Angular4.Business.Entities.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Business.Common\bin\Debug\FluentValidation.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Business.Common\bin\Debug\CodeProject.Angular4.Business.Entities.pdb
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Business.Common\bin\Debug\FluentValidation.xml
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Business.Common\obj\Debug\CodeProject.Angular4.Business.Common.csprojResolveAssemblyReference.cache
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Business.Common\obj\Debug\CodeProject.Angular4.Business.Common.csproj.CoreCompileInputs.cache
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Business.Common\obj\Debug\CodeProject.Angular4.Business.Common.dll
+D:\Ganesh\Angular2Sample\CodeProject.Angular4.Portal\CodeProject.Angular4.Business.Common\obj\Debug\CodeProject.Angular4.Business.Common.pdb
