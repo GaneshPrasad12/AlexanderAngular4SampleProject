@@ -1,0 +1,43 @@
+<h4 class="page-header">{{title}}</h4>
+
+<div class="form-horizontal" style="margin-bottom:25px;">
+
+    <div style="width:20%; float:left; padding-right:1px;">
+        <input type="text" class="form-control" placeholder="Customer Code" [(ngModel)]="customerCode" name="customerCode" (ngModelChange)="customerCodeChanged($event)" />       
+    </div>
+
+    <div style="width:20%; float:left; padding-right:1px;">
+        <input type="text" class="form-control" placeholder="Company Name" [(ngModel)]="companyName" name="companyName" (ngModelChange)="companyNameChanged($event)" />
+    </div>
+
+    <div style="float:left; padding-right:1px; padding-left:5px;">
+        <button class="btn btn-primary" (click)="reset()">
+            <b>Reset Search</b>
+        </button>
+    </div>
+
+    <div style="float:left; padding-right:1px; padding-left:5px;">
+        <button class="btn btn-primary" (click)="search()">
+            <b>Submit Search</b>
+        </button>
+    </div>
+
+    <div style="float:right; padding-left:5px;">
+        <label><input type="checkbox" [(ngModel)]="autoFilter" name="autoFilter">&nbsp;Auto Filtering Search</label>
+    </div>
+
+</div>
+
+<br clear="all" />
+
+<datagrid [rows]="customers"
+          [columns]="columns"
+          [pageSize]="pageSize"
+          (datagridEvent)="datagridEvent($event)">
+</datagrid>
+
+<br style="clear:both;" />
+
+<div>
+    <alertbox [alerts]="alerts" [messageBox]="messageBox"></alertbox>
+</div>

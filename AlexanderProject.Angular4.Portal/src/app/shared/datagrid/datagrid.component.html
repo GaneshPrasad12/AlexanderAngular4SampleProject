@@ -1,0 +1,119 @@
+﻿<table class="table table-striped">
+    <thead>
+        <tr>
+            <td *ngFor="let col of columns" [ngStyle]="{'width': col.cellWidth, 'text-align': col.textAlign}">
+
+                <div *ngIf="col.disableSorting==false">
+                    <b><a (click)="sortData(col.name)">{{col.description}}</a></b>
+                     
+                    <span *ngIf="col.name == sortColumn && sortAscending == true">                       
+                         <i class="glyphicon glyphicon-arrow-down"></i>                      
+                    </span>
+
+                    <span *ngIf="col.name == sortColumn && sortDesending == true">
+                        <i class="glyphicon glyphicon-arrow-up"></i>
+                    </span>
+
+                </div>
+
+                <div *ngIf="col.disableSorting==true">
+                    <b>{{col.description}}</b>
+                </div>
+
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr *ngFor="let row of rows; let i = index">
+
+            <td *ngFor="let col of columns" [ngStyle]="{'width': col.width, 'text-align': col.textAlign}">
+
+                <div *ngIf="col.hyperLink == false && col.singleButton == false && col.multiButton == false">
+                    <span class="table-responsive-custom"><b>{{col.description}}:&nbsp;</b></span>
+               
+                    <div *ngIf="col.formatDate == true && col.formatDateTime == false">{{row[col.name] | date:"MM/dd/yyyy"}}</div>
+                    <div *ngIf="col.formatDateTime == true && col.formatDate == false">{{row[col.name] | date:"mm" }}</div>
+                    <div *ngIf="col.formatDate == false && col.formatDateTime == false">{{row[col.name]}}</div>
+
+                </div>
+
+                <div *ngIf="col.hyperLink == true">
+                    <span class="table-responsive-custom" style="width:100%"><b>{{col.description}}:&nbsp;</b></span>
+                    <div style="text-decoration: underline; cursor:pointer;" (click)="selectedRow(i)">
+                   
+                        <div *ngIf="col.formatDate == true && col.formatDateTime == false">{{row[col.name] | date:"MM/dd/yyyy"}}</div>
+                        <div *ngIf="col.formatDateTime == true && col.formatDate == false">{{row[col.name] | date:"mm" }}</div>
+                        <div *ngIf="col.formatDate == false && col.formatDateTime == false">{{row[col.name]}}</div>
+
+                    </div>
+                </div>
+
+                <div *ngIf="col.singleButton == true">
+                    <span class="table-responsive-custom" style="width:100%"><b>{{col.description}}:&nbsp;</b></span>
+                    <button class="btn btn-primary" (click)="buttonClicked(col.buttonText,i)">
+                        <b>{{col.buttonText}}</b>
+                    </button>
+                </div>
+
+                <div *ngIf="col.multiButton == true">
+                    <span class="table-responsive-custom" style="width:100%"><b>{{col.description}}:&nbsp;</b></span>
+                    <div *ngFor="let button of col.buttons" style="float:left">
+                        <button class="btn btn-primary" (click)="buttonClicked(button.ButtonText,i)">
+                            <b>{{button.ButtonText}}&nbsp;</b>
+                        </button>&nbsp;
+                    </div>
+
+                </div>
+
+
+            </td>
+        </tr>
+
+    </tbody>
+
+</table>
+
+<div style="float:left">
+    <button class="btn ui-grid-pager-control" (click)="buttonFirstPage()" [disabled]="disableFirstPageButton || (totalPages == 1 && this.currentPageNumber == 1)">
+        <div class="first-triangle">
+            <div class="first-bar"></div>
+        </div>
+    </button>
+    <button class="btn ui-grid-pager-control" (click)="buttonPreviousPage()" [disabled]="disablePreviousPageButton || (totalPages == 1 && this.currentPageNumber == 1)">
+        <div class="first-triangle prev-triangle">
+        </div>
+    </button>
+    &nbsp;{{currentPageNumber}}&nbsp;/&nbsp;{{totalPages}}&nbsp;
+    <button class="btn ui-grid-pager-control" (click)="buttonNextPage()" [disabled]="disableNextPageButton || (totalPages == 1 && this.currentPageNumber == 1)">
+        <div class="last-triangle">
+        </div>
+    </button>
+    <button class="btn ui-grid-pager-control" (click)="buttonLastPage()" [disabled]="disableLastPageButton || (totalPages == 1 && this.currentPageNumber == 1)">
+        <div class="last-triangle">
+            <div class="last-bar"></div>
+        </div>
+    </button>
+    <select class="ui-grid-pager-row-count-picker" [(ngModel)]="pageSize" (change)="pageSizeChanged($event.target.value)">
+        <option *ngFor="let pageSizeDefault of pageSizes" value="{{pageSizeDefault}}">{{pageSizeDefault}}</option>
+    </select>
+    &nbsp;items per page
+</div>
+
+<!--<br class="grid-pager-break" style="clear:both;" />-->
+
+<div class="grid-pager-responsive-custom">
+    &nbsp;{{itemNumberBegin}}&nbsp;-&nbsp;{{itemNumberEnd}}&nbsp;of&nbsp;{{totalRows}}&nbsp;items&nbsp;
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

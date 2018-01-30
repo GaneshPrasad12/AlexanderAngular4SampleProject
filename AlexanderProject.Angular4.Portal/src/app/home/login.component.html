@@ -1,0 +1,41 @@
+﻿
+<h4 class="page-header">{{title}}</h4>
+
+<div class="panel panel-default">
+
+    <form class="form-horizontal" role="form">
+
+        <div class="form-group">
+
+            <div style="padding:10px;margin:10px; ">
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Email Address</label>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <input type="text" class="form-control" [(ngModel)]="emailAddress" name="emailAddress">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Password</label>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <input type="password" class="form-control" [(ngModel)]="password" name="password">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
+
+<button value="Login" class="btn btn-primary" (click)="login($event)">Login</button>
+
+<alertbox [alerts]="alerts" [messageBox]="messageBox"></alertbox>
+
+
+
+
+

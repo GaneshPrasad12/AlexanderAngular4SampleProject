@@ -1,0 +1,67 @@
+<h4 class="page-header">{{title}}</h4>
+
+<div class="panel panel-default">
+
+    <form class="form-horizontal" role="form">
+
+        <div class="form-group">
+
+            <div style="padding:10px;margin:10px; ">
+
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label required">First Name</label>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <input type="text" class="form-control" [(ngModel)]="firstName" name="firstName" [ngClass]="{'validation-error': firstNameInputError}">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label required">Last Name</label>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <input type="text" class="form-control" [(ngModel)]="lastName" name="lastName" [ngClass]="{'validation-error': lastNameInputError}">
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label required">Email Address</label>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <input type="text" class="form-control"  [(ngModel)]="emailAddress" name="emailAddress" [ngClass]="{'validation-error': emailAddressInputError}" >
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label required">Password</label>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <input type="password" class="form-control" [(ngModel)]="password" name="password" [ngClass]="{'validation-error': passwordInputError}">
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label required">Password Confirmation</label>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <input type="password" class="form-control" [(ngModel)]="passwordConfirmation" name="passwordConfirmation" [ngClass]="{'validation-error': passwordConfirmationInputError}">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
+
+<button value="Register" class="btn btn-primary" (click)="registerUser($event)">Register</button>
+
+<alertbox [alerts]="alerts" [messageBox]="messageBox"></alertbox>
+
+
+
+
+
+
