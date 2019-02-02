@@ -1,1 +1,0 @@
-"# AlexanderAngular4SampleProject" 
